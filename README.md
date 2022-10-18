@@ -81,7 +81,7 @@ public class Pumpkin {
 ### Step 1: Implementing individual parts.
 Your **first task** is to implement the remaining "parts" - feel free to be creative with your ASCII art, or find some on the internet. Just don't forget to **escape** special characters like `\` by adding another `\` in front of them (so: `\\`) or they won't display properly. I've included a `main(...)` method in each of the starter files to simplify testing.
 
-One tricky piece to consider is how you'll print your `Boot`s (since you need two of them). In this class, your constructor will take a `String` as a parameter which will take one of two values: `"left"` or `"right"`. We'll use this to signal whether we a drawing the left or right boot. 
+One tricky piece to consider is how you'll print your `Boot`s (since you need two of them). In this class, your constructor will take a `String` as a parameter which will take one of two values: `"left"` or `"right"`. We'll use this to signal whether we are drawing the left or right boot. 
 
 _Hint 1: It's much more straightforward if each `Boot` only occupies a single line!_
 _Hint 2: Remember the difference between `System.out.println(...)` and `System.out.print(...)`._
