@@ -24,13 +24,13 @@ ___YES__ 1 pt: The `Boot` class displays something boot-like
 
 ___YES__ 1 pt: The `Scarecrow` class displays something `Scarecrow-like`
 
-_____ 1 pt: The `Scarecrow` uses the classes defined in Level 1 (**Association**) to accomplish its goals
+___YES__ 1 pt: The `Scarecrow` uses the classes defined in Level 1 (**Association**) to accomplish its goals
 
-_____ 1 pt: The `Banner` class displays a decorative Banner
+__YES___ 1 pt: The `Banner` class displays a decorative Banner
 
 ### Level 3 (3 pts)
 
-_____ 1 pt: The `Banner` class resizes its display to fit the supplied message
+__YES___ 1 pt: The `Banner` class resizes its display to fit the supplied message
 
 _____ 1 pt: The message supplied to the `Banner` constructor is passed in via the command line
 
