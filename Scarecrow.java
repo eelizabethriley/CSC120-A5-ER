@@ -13,7 +13,6 @@ class Scarecrow {
     private Pumpkin head;
     private Shirt body;
     private Pants legs;
-    // private Hat hat;
     private Boot leftFoot;
     private Boot rightFoot;
     private Banner sign;
