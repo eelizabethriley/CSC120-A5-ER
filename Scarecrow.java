@@ -17,7 +17,7 @@ class Scarecrow {
     private Boot leftFoot;
     private Boot rightFoot;
     private Banner sign;
-    private String message = "Fall is here! :)";
+    private String message;
 
     /* Constructor
      * TODO: initialize remaining parts
