@@ -8,7 +8,6 @@ public class Banner {
     
     /* Message to print on Banner */
     private String message;
-    private int mLength = 2;
 
     /* Constructor */
     public Banner(String m) {
