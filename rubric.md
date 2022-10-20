@@ -38,7 +38,7 @@ _____ 1 pt: The program displays a default message if none is supplied.
 
 ## Kudos:
 
-_____ (Kudos!) Banner is printed as a speech bubble with correct alignment
+__NO___ (Kudos!) Banner is printed as a speech bubble with correct alignment
 
 __YES___ (Kudos!) Boots are mirror images of one another
 

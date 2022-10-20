@@ -17,18 +17,19 @@ class Scarecrow {
     private Boot leftFoot;
     private Boot rightFoot;
     private Banner sign;
-    private String message;
+    private String message = "Fall is here! :)";
 
     /* Constructor
      * TODO: initialize remaining parts
      */
-    public Scarecrow(Pumpkin h, Shirt b, Pants l, Boot lF, Boot rF, String m, Banner s) {
+    public Scarecrow(Pumpkin h, Shirt b, Pants l, Boot lF, Boot rF, String m) {
         head = h;
         body = b;
         legs = l;
         leftFoot = lF;
         rightFoot = rF;
-        sign = s;
+        message = m;
+        sign = new Banner(m);
     }
 
     /* Displays the Scarecrow 
@@ -49,7 +50,7 @@ class Scarecrow {
     public static void main(String[] args) {
 
         // TODO: Don't forget to update the line below if you modify the constructor
-        Scarecrow myScarecrow = new Scarecrow(new Pumpkin(), new Shirt(), new Pants(), new Boot("left"), new Boot("right"), String, new Banner(m));
+        Scarecrow myScarecrow = new Scarecrow(new Pumpkin(), new Shirt(), new Pants(), new Boot("left"), new Boot("right"), "Fall is here!");
 
         // If a message was passed in on the command line, extract and store it
         // TODO: in Step 4, you'll pass this value along to your Banner constructor
@@ -57,6 +58,7 @@ class Scarecrow {
             myScarecrow.message = args[0];
         }
 
+        System.out.println(myScarecrow.message);
         myScarecrow.display();
     }
 

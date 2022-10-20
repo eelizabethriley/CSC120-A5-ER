@@ -124,7 +124,7 @@ if (args.length > 0) {
   // DO SOMETHING HERE
 }
 ```
-This says "Check to see if there's anything stored in the `args` array (i.e., if its length is > 0)". This array gets populated when someone masses in a **command line argument** when they run the program, like this:
+This says "Check to see if there's anything stored in the `args` array (i.e., if its length is > 0)". This array gets populated when someone passes in a **command line argument** when they run the program, like this:
 
 ```
 > java Scarecrow "Happy fall, everyone!"
