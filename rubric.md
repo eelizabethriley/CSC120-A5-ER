@@ -12,17 +12,17 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 ### Level 1 (4 pts)
 
-_____ 1 pt: The `Pumpkin` class displays something pumpkin-like
+__YES___ 1 pt: The `Pumpkin` class displays something pumpkin-like
 
-_____ 1 pt: The `Shirt` class dislays something shirt-like
+__YES___ 1 pt: The `Shirt` class dislays something shirt-like
 
-_____ 1 pt: The `Pants` class displays something pants-like
+__YES___ 1 pt: The `Pants` class displays something pants-like
 
-_____ 1 pt: The `Boot` class displays something boot-like
+___YES__ 1 pt: The `Boot` class displays something boot-like
 
 ### Level 2 (3 pts)
 
-_____ 1 pt: The `Scarecrow` class displays something `Scarecrow-like`
+___YES__ 1 pt: The `Scarecrow` class displays something `Scarecrow-like`
 
 _____ 1 pt: The `Scarecrow` uses the classes defined in Level 1 (**Association**) to accomplish its goals
 
@@ -40,7 +40,7 @@ _____ 1 pt: The program displays a default message if none is supplied.
 
 _____ (Kudos!) Banner is printed as a speech bubble with correct alignment
 
-_____ (Kudos!) Boots are mirror images of one another
+__YES___ (Kudos!) Boots are mirror images of one another
 
 
 
