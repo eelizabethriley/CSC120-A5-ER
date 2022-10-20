@@ -7,7 +7,7 @@
 public class Pants {
 
     /*
-     * TODO: Modify this method to print ASCII Art Pants
+     * Print ASCII Art Pants
      */
     public void display() {
         System.out.println("        |   | \\/  |  |");
