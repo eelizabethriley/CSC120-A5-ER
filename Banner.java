@@ -19,13 +19,13 @@ public class Banner {
      * TODO: Modify this method to print a decorative banner, resized to fit the message
      */
     public void display() {
-        System.out.println("    " + "#".repeat(message.length()));
+        System.out.println("    " + "#".repeat(message.length()+2));
         System.out.print("  ###");
-        System.out.print("-".repeat(message.length()-2));
+        System.out.print("-".repeat(message.length()));
         System.out.println("###");
-        System.out.println(" ## " + this.message + " ##");
-        System.out.println("  ###" + "-".repeat(message.length()-2) + "###");
-        System.out.println("    " + "#".repeat(message.length()));
+        System.out.println(" ##  " + this.message + "  ##");
+        System.out.println("  ###" + "-".repeat(message.length()) + "###");
+        System.out.println("    " + "#".repeat(message.length()+2));
     }
 
     /* main method (for testing) */
