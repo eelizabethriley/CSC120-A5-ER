@@ -15,20 +15,21 @@ class Scarecrow {
     private Pants legs;
     private Boot leftFoot;
     private Boot rightFoot;
-    private Banner sign;
     private String message;
+    private Banner sign;
+
 
     /* Constructor
      * TODO: initialize remaining parts
      */
-    public Scarecrow(Pumpkin h, Shirt b, Pants l, Boot lF, Boot rF, String m) {
+    public Scarecrow(Pumpkin h, Shirt b, Pants l, Boot lF, Boot rF) {
         head = h;
         body = b;
         legs = l;
         leftFoot = lF;
         rightFoot = rF;
-        message = m;
-        sign = new Banner(m);
+        message = "Fall is here!!";
+        sign = new Banner(message);
     }
 
     /* Displays the Scarecrow 
@@ -47,17 +48,16 @@ class Scarecrow {
 
     /* Main method (for testing) */
     public static void main(String[] args) {
-
         // TODO: Don't forget to update the line below if you modify the constructor
-        Scarecrow myScarecrow = new Scarecrow(new Pumpkin(), new Shirt(), new Pants(), new Boot("left"), new Boot("right"), "Fall is here!");
+        Scarecrow myScarecrow = new Scarecrow(new Pumpkin(), new Shirt(), new Pants(), new Boot("left"), new Boot("right"));
 
         // If a message was passed in on the command line, extract and store it
         // TODO: in Step 4, you'll pass this value along to your Banner constructor
         if (args.length > 0) {
             myScarecrow.message = args[0];
+            System.out.println("message has been updated");
         }
 
-        System.out.println(myScarecrow.message);
         myScarecrow.display();
     }
 
