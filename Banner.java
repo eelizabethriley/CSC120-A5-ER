@@ -4,10 +4,12 @@
  * @author R. Jordan Crouser + CSC120 (Fall '22))
  * @version 13 October 2022
  */
+
+ /* A class Banner that can display an ascii banner with a message.*/
 public class Banner {
     
     /* Message to print on Banner */
-    private String message = "(Default) Fall is coming";
+    private String message;
 
     /* Constructor */
     public Banner(String m) {

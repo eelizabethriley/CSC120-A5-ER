@@ -32,9 +32,9 @@ __YES___ 1 pt: The `Banner` class displays a decorative Banner
 
 __YES___ 1 pt: The `Banner` class resizes its display to fit the supplied message
 
-_____ 1 pt: The message supplied to the `Banner` constructor is passed in via the command line
+__NO___ 1 pt: The message supplied to the `Banner` constructor is passed in via the command line
 
-_____ 1 pt: The program displays a default message if none is supplied.
+__PART___ 1 pt: The program displays a default message if none is supplied.
 
 ## Kudos:
 
@@ -54,14 +54,14 @@ _____ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
       _____ Classes & class members all have Javadoc header comments
 
-      _____ Clear and consistent indentation of bracketed sections
+      ___YES__ Clear and consistent indentation of bracketed sections
 
-      _____ Adheres to Java conventions on naming & capitalization
+      ___YES__ Adheres to Java conventions on naming & capitalization
 
-      _____ Methods & variables all have clear and accurate names
+      ___YES__ Methods & variables all have clear and accurate names
 
-      _____ Methods avoid confusing side effects
+      ___YES__ Methods avoid confusing side effects
 
-_____ 1 pt: All required files included with submission (including completed `rubric.md` file)
+__YES___ 1 pt: All required files included with submission (including completed `rubric.md` file)
 
-_____ 1 pt: `reflection.md` contains your reflection on the assignment
+__YES___ 1 pt: `reflection.md` contains your reflection on the assignment

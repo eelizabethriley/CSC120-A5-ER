@@ -7,7 +7,7 @@
 public class Shirt {
 
     /*
-     * TODO: Modify this method to print ASCII Art Shirt
+     * Print ASCII Art Shirt
      */
     public void display() {
         System.out.println("        __,--./|.--,__");
