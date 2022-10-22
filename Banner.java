@@ -7,7 +7,7 @@
 public class Banner {
     
     /* Message to print on Banner */
-    private String message;
+    private String message = "(Default) Fall is coming";
 
     /* Constructor */
     public Banner(String m) {

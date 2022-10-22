@@ -46,9 +46,9 @@ __YES___ (Kudos!) Boots are mirror images of one another
 
 ## General Items:
 
-_____ 4 pts: Programs compile without errors or warnings
+__YES___ 4 pts: Programs compile without errors or warnings
 
-_____ 2 pts: Executes fully & consistently without crashing (exception/freeze)
+__YES__ 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
 _____ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
