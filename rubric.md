@@ -32,9 +32,9 @@ __YES___ 1 pt: The `Banner` class displays a decorative Banner
 
 __YES___ 1 pt: The `Banner` class resizes its display to fit the supplied message
 
-__NO___ 1 pt: The message supplied to the `Banner` constructor is passed in via the command line
+__YES___ 1 pt: The message supplied to the `Banner` constructor is passed in via the command line
 
-__PART___ 1 pt: The program displays a default message if none is supplied.
+__YES___ 1 pt: The program displays a default message if none is supplied.
 
 ## Kudos:
 
@@ -50,9 +50,9 @@ __YES___ 4 pts: Programs compile without errors or warnings
 
 __YES__ 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
-_____ 2 pt: Complies with style guidelines (missing items 1 pt each):
+__YES___ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
-      _____ Classes & class members all have Javadoc header comments
+      ___YES__ Classes & class members all have Javadoc header comments
 
       ___YES__ Clear and consistent indentation of bracketed sections
 
